@@ -1,8 +1,8 @@
 pragma solidity ^0.4.18;
 
-import "./ERC820Implementer.sol";
+import "./EIP820Implementer.sol";
 
-contract ExampleImplementer2 is ERC820Implementer {
+contract ExampleImplementer2 is EIP820Implementer {
 
     function ExampleImplementer2() public {
         setInterfaceImplementation("ERC820ExampleImplementer2", this);
